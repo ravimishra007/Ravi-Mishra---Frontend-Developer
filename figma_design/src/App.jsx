@@ -3,7 +3,7 @@ import {Avatar} from './components/Avatar'
 import { Header } from './components/Header'
 import { TechTools } from './components/Technologies'
 import { TextSection } from './components/TextSection'
-import {Tokenomics} from './components/Tokenomics'
+import Tokenomics from './components/Tokenomics'
 
 function App() {
 
