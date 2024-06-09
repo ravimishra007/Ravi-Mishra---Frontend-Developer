@@ -1,0 +1,37 @@
+/* avatar */
+
+.avatar-section{
+    /* border: 5px solid white; */
+    /* margin-left: 30px; */
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .avatar-section-para p{
+
+  }
+  /* 
+  
+  background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+  font-family: Outfit;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+text-align: left;
+
+  
+  */
+
+/* Add this to your CSS file */
+.text-active {
+    background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  
+  .text-inactive {
+    color: #64748b; /* slate color */
+  }
+  
