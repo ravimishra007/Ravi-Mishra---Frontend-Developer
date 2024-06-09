@@ -43,3 +43,33 @@ text-align: left;
    }
     /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
  */
+
+
+/* navbar.css */
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes moveDownUp {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  .img-animate-up-down {
+    animation: moveUpDown 3s ease-in-out infinite;
+  }
+  
+  .img-animate-down-up {
+    animation: moveDownUp 3s ease-in-out infinite;
+  }
+    
