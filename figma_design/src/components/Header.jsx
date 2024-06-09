@@ -1,19 +1,19 @@
-import elonMusk from "../../public/elonMusk.png";
-import billGates from "../../public/billGates.png";
-import timCook from "../../public/timCook.png";
-import trump from "../../public/trump.png";
-import markZukarberg from "../../public/mark zukarberg.png";
-import vitalikBitcoin from "../../public/vitalik bitcoin.png";
-import biden from "../../public/biden.png";
-import albertEintein from "../../public/albert einstein.png";
-import barakObama from "../../public/obama.png";
-import "../styles/navbar.css";
-import { Navbar } from "./Navbar";
+import elonMusk from '../../public/elonMusk.png';
+import billGates from '../../public/billGates.png';
+import timCook from '../../public/timCook.png';
+import trump from '../../public/trump.png';
+import markZukarberg from '../../public/mark zukarberg.png';
+import vitalikBitcoin from '../../public/vitalik bitcoin.png';
+import biden from '../../public/biden.png';
+import albertEintein from '../../public/albert einstein.png';
+import barakObama from '../../public/obama.png';
+import '../styles/navbar.css';
+import { Navbar } from './Navbar';
 
 export const Header = () => {
   return (
     <div className="mx-auto w-full relative overflow-hidden header">
-      <Navbar />
+            <Navbar/>
       <div className="md:flex p-10">
         <header className="md:w-[50%] md:ml-44 mt-24">
           <button className="btn0 border px-2 py-1 text-sm rounded-lg bg-slate-900 border-slate-400">

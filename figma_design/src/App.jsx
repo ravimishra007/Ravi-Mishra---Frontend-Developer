@@ -1,5 +1,6 @@
 import './App.css'
 import { Header } from './components/Header'
+import { TextSection } from './components/TextSection'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <div className="figma-app">
       <Header/>
+      <TextSection/>
     </div>
 
     </>

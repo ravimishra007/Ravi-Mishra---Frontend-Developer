@@ -61,3 +61,18 @@ nav {
 .img-animate-down-up {
   animation: moveDownUp 3s ease-in-out infinite;
 }
+
+
+/* text section responsive */
+
+.textSection-para h1{
+font-weight: 600;
+text-align: center;
+
+}
+@media (max-width: 800px) {
+  .lg\:py-20 {
+    padding: 10px;
+    height: 500px;
+  }
+}
