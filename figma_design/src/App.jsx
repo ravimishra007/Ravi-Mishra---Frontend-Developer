@@ -3,6 +3,7 @@ import {Avatar} from './components/Avatar'
 import { Header } from './components/Header'
 import { TechTools } from './components/Technologies'
 import { TextSection } from './components/TextSection'
+import {Tokenomics} from './components/Tokenomics'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <TextSection/>
       <Avatar/>
       <TechTools/>
+      <Tokenomics/>
     </div>
 
     </>
