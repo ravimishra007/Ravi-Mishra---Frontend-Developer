@@ -1,0 +1,25 @@
+@keyframes left-right {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px);
+    }
+  }
+
+  @keyframes right-left {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50px);
+    }
+  }
+
+  .animate-left-right {
+    animation: left-right 4s infinite;
+  }
+
+  .animate-right-left {
+    animation: right-left 4s infinite;
+  }
