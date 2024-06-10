@@ -3,7 +3,19 @@
 <h2>Deployed App: </h2>  https://ravi-mishra-frontend-developer.vercel.app/
 
 <h2>Project Overview : </h2>
-  This repository contains the implementation of a web application meticulously crafted from a provided Figma design. The primary objective is to transform the design into a functional and visually appealing application using modern web development technologies.
+ This repository hosts the implementation of a landing page derived from a Figma design for the AI.Gen platform. The AI.Gen landing page is crafted to highlight the platform's features and capabilities through a well-structured layout. It includes several distinct sections:
+
+## Features
+
+- **Navbar**: The navigation bar provides easy access to different parts of the landing page.
+- **Hero Section**: A visually engaging hero section that introduces the platform.
+- **Introduction Section**: This section offers a brief overview of AI.Gen and its purpose.
+- **How It Works**: Detailed information on how the platform operates.
+- **Keywords Carousel**: A dynamic carousel showcasing key terms related to AI.Gen.
+- **Tokenomics**: An explanation of the platform's economic model.
+- **Roadmap**: A timeline outlining the development and future plans of AI.Gen.
+- **Footer**: The footer contains additional links and information for users.
+
 
 ## Key Features
 1. **React**: Leveraging React for building interactive UIs and  enhancing code quality and maintainability.
