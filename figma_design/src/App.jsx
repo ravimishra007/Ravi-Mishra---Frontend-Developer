@@ -1,6 +1,7 @@
 import './App.css'
 import {Avatar} from './components/Avatar'
 import { Header } from './components/Header'
+import { ItemSection } from './components/ItemSection'
 import { TechTools } from './components/Technologies'
 import { TextSection } from './components/TextSection'
 import Tokenomics from './components/Tokenomics'
@@ -15,6 +16,7 @@ function App() {
       <Avatar/>
       <TechTools/>
       <Tokenomics/>
+      <ItemSection/>
     </div>
 
     </>
