@@ -13,9 +13,9 @@ import { Navbar } from './Navbar';
 export const Header = () => {
   return (
     <div className="mx-auto w-full relative overflow-hidden header">
-            <Navbar/>
-      <div className="md:flex p-10">
-        <header className="md:w-[50%] md:ml-44 mt-24">
+      <Navbar />
+      <div className="md:flex p-10 mt-20">
+        <header className="md:w-[50%] md:ml-40 mt-20">
           <button className="btn0 border px-2 py-1 text-sm rounded-lg bg-slate-900 border-slate-400">
             🎉 New in AI.GEN: Real Time Interaction
           </button>
@@ -30,7 +30,7 @@ export const Header = () => {
             Get Started
           </button>
         </header>
-        <aside className="hidden md:flex absolute md:relative top-[-30px] right-[-90px] -z-1 gap-12">
+        <aside className="hidden md:flex absolute md:relative top-[-30px] right-[-90px] gap-12">
           <div className="flex flex-col gap-10 img-animate-up-down">
             <img
               src={elonMusk}

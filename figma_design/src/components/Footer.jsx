@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer className="bg-custom-radial text-white py-8 h-[250px]" >
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div className="container mt-[50px] px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-6 md:mb-0">
           <h1 className="text-2xl font-bold ">AI.GEN</h1>
           <p className="mt-2 text-gray-400">© 2024 Company. All rights reserved.</p>

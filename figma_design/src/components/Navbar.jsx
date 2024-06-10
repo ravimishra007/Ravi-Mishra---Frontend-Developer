@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import '../styles/navbar.css';
 
-
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -10,17 +9,15 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-6 relative z-10 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 w-full flex justify-between items-center p-4 z-10 backdrop-blur-md">
       <div className="flex items-center justify-start gap-5">
         <div className="text-2xl font-bold tracking-[8px]">AI.GEN</div>
-        {/* Hide the menu items on screens smaller than 750px */}
-        <ul className={`hidden md:flex gap-5`}>
+        <ul className="hidden md:flex gap-5">
           <li>Features</li>
           <li>Roadmap</li>
           <li>Tokenomics</li>
         </ul>
       </div>
-      {/* Hamburger menu icon */}
       <div className="md:hidden">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
           <svg
@@ -40,8 +37,23 @@ export const Navbar = () => {
           </svg>
         </button>
       </div>
-      {/* Menu items for screens larger than 750px */}
-      {/* <div className={`flex gap-3 ${menuOpen ? 'hidden' : 'md:flex'}`}> */}
+      <div className={`sidebar ${menuOpen ? 'flex' : 'hidden'} md:hidden`}>
+        <ul className="flex flex-col gap-5">
+          <li>Features</li>
+          <li>Roadmap</li>
+          <li>Tokenomics</li>
+          <li>
+            <button className="rounded-md py-3 px-6 border-0 backdrop-opacity-50 bg-slate-900 w-full">
+              Whitepaper
+            </button>
+          </li>
+          <li>
+            <button className="bg-gradient-to-r from-indigo-500 to-pink-500 rounded-md py-3 px-6 border-0 w-full">
+              Get Started
+            </button>
+          </li>
+        </ul>
+      </div>
       <div className="hidden md:flex gap-3">
         <button className="rounded-md py-3 px-6 border-0 backdrop-opacity-50 bg-slate-900">
           Whitepaper
