@@ -6,7 +6,7 @@ export const Avatar = () => {
     useEffect(() => {
       const paragraphs = document.querySelectorAll(".animated-paragraph");
       let current = 0;
-  
+
       const updateParagraphs = () => {
         paragraphs.forEach((paragraph, index) => {
           if (index === current) {
@@ -19,13 +19,13 @@ export const Avatar = () => {
         });
         current = (current + 1) % paragraphs.length;
       };
-  
+
       updateParagraphs(); // Initial animation
-      const interval = setInterval(updateParagraphs, 1000);
-  
+      const interval = setInterval(updateParagraphs, 900);
+
       return () => clearInterval(interval); // Cleanup interval on component unmount
     }, []);
-  
+
     return (
       <div className="avatar-section md:flex justify-start items-center gap-10 relative">
         <div className="md:w-[60%] md:rounded-r-lg rounded-lg overflow-hidden">
@@ -41,3 +41,4 @@ export const Avatar = () => {
       </div>
     );
   };
+ 

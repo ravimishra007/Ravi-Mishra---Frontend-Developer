@@ -1,5 +1,6 @@
 import './App.css'
 import {Avatar} from './components/Avatar'
+import Footer from './components/Footer'
 import { Header } from './components/Header'
 import { ItemSection } from './components/ItemSection'
 import { RoadMapPhase02 } from './components/RoadMapPhase02'
@@ -21,6 +22,7 @@ function App() {
       <Tokenomics/>
       <RoadMapPhase01/>
       <RoadMapPhase02/>
+      <Footer/>
 
     </div>
 

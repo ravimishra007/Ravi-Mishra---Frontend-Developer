@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import phase2 from "../../public/phase2.png";
-import '../styles/avatar.css';
+import '../styles/RoadMap.css';
 
 export const RoadMapPhase02 = () => {
     useEffect(() => {

@@ -1,52 +1,19 @@
 /* avatar */
 
-.avatar-section{
-    /* border: 5px solid white; */
-    /* margin-left: 30px; */
-    padding: 10px;
-    margin: 20px;
-  }
-  
+.avatar-section {
+
+  padding: 10px;
+  margin: 20px;
+}
+
 
 .text-active {
-    background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #5cc3fa 0%, #9e6ee6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
 
-  }
-  
-  .text-inactive {
-    color: #5f6977; 
-  }
-  
-
-
-
-  .roadMap-section{
-    padding: 20px;
-    margin-left: 20px;
-  }
-
-  .roadMap-section-para h1{
-    background: linear-gradient(90deg, #FACC69 0%, #FA75F8 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-  .roadMap-section-paragraph{
-    /* width: 528px; */
-height:224px;
-gap: 8px;
-
-  }
-  .roadMap-section-paragraph p{
-    font-family: Outfit;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-color: rgba(255, 255, 255, 0.8);
-;    
-  }
+.text-inactive {
+  color: #64748b; 
+}
