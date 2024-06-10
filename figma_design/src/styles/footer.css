@@ -1,0 +1,22 @@
+.footer-section{
+    /* height: 850px; */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+
+}
+
+.heading-gradient {
+    background: linear-gradient(90deg, white, #8D9BA3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+ 
+
+.footer-middle{
+    margin-bottom: 80px;
+}
+.footer-bottom{
+    border-top:1px solid white ;
+    margin-left: 4%;
+    margin-right: 4%;
+}

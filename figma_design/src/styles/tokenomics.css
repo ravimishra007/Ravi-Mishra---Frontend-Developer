@@ -1,0 +1,14 @@
+.token-list{
+    padding: 10px;
+}
+@media (max-width:450px) {
+    .token-list{
+font-size: 10px;
+font-weight: 600px;
+height: 100px;
+line-height: 10px;
+text-align: center;
+
+        padding: 0px;
+    }
+}

@@ -13,14 +13,21 @@ nav {
    top:0
 }
 
+@media (max-width: 400px) {
+  header .btn0{
+    /* margin-top: -20px; */
+    height: 60px;
+    font-size: 10px;
+    font-weight: 200;
+  
+  }
+}
 
 
 
+header .btn0 {
 
-.btn0 {
-  width: 315px;
-  height: 40px;
-  padding: 0.5px 1px 0.5px 1px;
+  height: 60px;
   border-radius: 10px;
   background: rgba(20, 20, 20, 1);
   font-size: 16px;

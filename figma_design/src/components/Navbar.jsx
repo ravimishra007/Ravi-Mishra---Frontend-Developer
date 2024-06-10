@@ -42,7 +42,7 @@ export const Navbar = () => {
           <li>Features</li>
           <li>Roadmap</li>
           <li>Tokenomics</li>
-          <li>
+          {/* <li>
             <button className="rounded-md py-3 px-6 border-0 backdrop-opacity-50 bg-slate-900 w-full">
               Whitepaper
             </button>
@@ -51,7 +51,7 @@ export const Navbar = () => {
             <button className="bg-gradient-to-r from-indigo-500 to-pink-500 rounded-md py-3 px-6 border-0 w-full">
               Get Started
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="hidden md:flex gap-3">

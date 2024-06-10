@@ -1,50 +1,30 @@
-/* avatar */
+.roadmap01-h1 {
+  background: linear-gradient(90deg, #ea73f3, #9f6ee6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-.avatar-section{
-    padding: 10px;
-    margin: 20px;
-  }
-  
+.roadmap01-h2 {
+  background: linear-gradient(90deg, #facc69 0%, #fa75f8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
 
-.text-active {
-    background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-  
-  .text-inactive {
-    color: #5f6977; 
-  }
-  
-
-
-
-  .roadMap-section{
-    padding: 20px;
+@media (max-width: 520px) {
+  .text-Area ul {
+    padding: 5px;
     margin-left: 20px;
   }
+}
 
-  .roadMap-section-para h1{
-    background: linear-gradient(90deg, #FACC69 0%, #FA75F8 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-  .roadMap-section-paragraph{
-    /* width: 528px; */
-height:224px;
-gap: 8px;
-
-  }
-  .roadMap-section-paragraph p{
-    font-family: Outfit;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-color: rgba(255, 255, 255, 0.8);
-;    
-  }
+.text-Area {
+  padding: 10px;
+}
+.text-Area h1 {
+  /* border: 2px solid; */
+  /* margin-right: 165px; */
+  width: 240px;
+}
