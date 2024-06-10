@@ -37,7 +37,7 @@ https://github.com/ravimishra007/Ravi-Mishra---Frontend-Developer.git
 2. Navigate to the project directory:
 
 ```bash
-cd saviour_app
+cd Ravi-Mishra---Frontend-Developer
 ```
 
 3. Install dependencies:
