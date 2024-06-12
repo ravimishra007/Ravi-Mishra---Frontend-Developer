@@ -1,9 +1,10 @@
 # Matrix-Lab
 
-<h2>Deployed App: </h2>  https://ravi-mishra-frontend-developer.vercel.app/
 
 <h2>Project Overview : </h2>
  This repository hosts the implementation of a landing page derived from a Figma design for the AI.Gen platform. The AI.Gen landing page is crafted to highlight the platform's features and capabilities through a well-structured layout. It includes several distinct sections:
+
+<h2>Deployed Link: </h2>  https://ravi-mishra-frontend-developer.vercel.app/
 
 
  ## Project Type
@@ -69,6 +70,9 @@ Ravi-Mishra---Frontend-Developer
 │   └── vite.config.js
 └── README.md
 
+```
+
+
 ## Features
 
 - **Navbar**: The navigation bar provides easy access to different parts of the landing page.
@@ -85,8 +89,7 @@ Ravi-Mishra---Frontend-Developer
 
 ![Home page](./figma_design/public/ss_navbar.png)
 
-<br>
-![Home page](./figma_design/public/ss_mobile.png)
+![Home page](./figma_design/public/ss.mobile.png)
 
 
 
