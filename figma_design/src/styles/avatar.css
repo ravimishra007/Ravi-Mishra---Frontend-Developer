@@ -17,3 +17,15 @@
 .text-inactive {
   color: #64748b; 
 }
+
+
+@media (max-width: 500px) {
+  .avatar-section-para p{
+    font-size: 25.58px;
+    line-height: 30px;
+    margin-top: 20px;
+    
+  }
+
+}
+  
