@@ -1,7 +1,6 @@
 import "./App.css";
 import { Avatar } from "./components/Avatar";
 import { Footer } from "./components/Footer";
-// import { GetStarted } from "./components/GetStarted";
 import { Header } from "./components/Header";
 import { ItemSection } from "./components/ItemSection";
 import { RoadmapOne } from "./components/RoadMapOne";
@@ -26,9 +25,7 @@ function App() {
           <RoadmapTwo />
           <RoadmapThree />
         </div>
-
-      <Footer/>
-
+        <Footer />
       </div>
     </>
   );
