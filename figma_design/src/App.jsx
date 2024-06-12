@@ -3,9 +3,7 @@ import { Avatar } from "./components/Avatar";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { ItemSection } from "./components/ItemSection";
-import { RoadmapOne } from "./components/RoadMapOne";
-import { RoadmapThree } from "./components/RoadMapThree";
-import { RoadmapTwo } from "./components/RoadMapTwo";
+import { RoadMaps } from "./components/RoadMaps";
 import { TechTools } from "./components/Technologies";
 import { TextSection } from "./components/TextSection";
 import Tokenomics from "./components/Tokenomics";
@@ -21,9 +19,7 @@ function App() {
         <ItemSection />
         <Tokenomics />
         <div className="main-container">
-          <RoadmapOne />
-          <RoadmapTwo />
-          <RoadmapThree />
+          <RoadMaps/>
         </div>
         <Footer />
       </div>

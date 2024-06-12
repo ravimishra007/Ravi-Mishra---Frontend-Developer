@@ -14,14 +14,14 @@ export const ItemSection = () => {
             width={400}
             height={500}
             alt="...img"
-            className="shoesPic w-[28%] rounded-lg transform transition-transform duration-300 hover:scale-110"
+            className="shoesPic w-[28%]  transform transition-transform duration-300 hover:scale-110"
           />
           <img
             src={girlPic}
             width={600}
             height={300}
             alt="...img"
-            className="girlPic w-[40%] rounded-lg transform transition-transform duration-300 hover:scale-110"
+            className="girlPic w-[40%] transform transition-transform duration-300 hover:scale-110"
           />
         </div>
         <div className="relative top-[20%] my-[3%] w-full h-[30%] flex justify-center items-center gap-12">
@@ -30,14 +30,14 @@ export const ItemSection = () => {
             width={600}
             height={300}
             alt="...img"
-            className="keyBoard w-[40%] rounded-lg transform transition-transform duration-300 hover:scale-110"
+            className="keyBoard w-[40%] transform transition-transform duration-300 hover:scale-110"
           />
           <img
             src={detailsPic}
             width={400}
             height={500}
             alt="...img"
-            className="detailsPic w-[28%] rounded-lg transform transition-transform duration-300 hover:scale-110"
+            className="detailsPic w-[28%]  transform transition-transform duration-300 hover:scale-110"
           />
         </div>
       </div>
