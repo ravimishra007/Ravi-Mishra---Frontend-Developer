@@ -1,4 +1,4 @@
-import '../styles/navbar.css';
+import '../styles/textSection.css';
 
 
 export const TextSection = () => {
