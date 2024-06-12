@@ -1,9 +1,73 @@
-# Ravi-Mishra---Frontend-Developer
+# Matrix-Lab
 
 <h2>Deployed App: </h2>  https://ravi-mishra-frontend-developer.vercel.app/
 
 <h2>Project Overview : </h2>
  This repository hosts the implementation of a landing page derived from a Figma design for the AI.Gen platform. The AI.Gen landing page is crafted to highlight the platform's features and capabilities through a well-structured layout. It includes several distinct sections:
+
+
+ ## Project Type
+- **Frontend**
+
+
+## Directory Structure
+
+```
+
+Ravi-Mishra---Frontend-Developer
+|
+└── figma_design/
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public/
+│   │   
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── components/
+│   │   │   ├── Avatar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── GetStarted.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── ItemSection.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── RoadMaps.jsx
+│   │   │   ├── RoadMapOne.jsx
+│   │   │   ├── RoadMapTwo.jsx
+│   │   │   ├── RoadMapThree.jsx
+│   │   │   ├── Technologies.jsx
+│   │   │   ├── TextSection.jsx
+│   │   │   └── Tokenomics.jsx
+│   │   │
+│   │   ├── styles/
+│   │   │    ├── avatar.css
+│   │   │    ├── footer.css
+│   │   │    ├── getStarted.css
+│   │   │    ├── itemSection.css
+│   │   │    ├── navbar.css
+│   │   │    ├── RoadMap.css
+│   │   │    ├── technologies.css
+│   │   │    ├── textSection.css
+│   │   │    └── tokenomics.css
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │  
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package.lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+└── README.md
 
 ## Features
 
@@ -15,6 +79,15 @@
 - **Tokenomics**: An explanation of the platform's economic model.
 - **Roadmap**: A timeline outlining the development and future plans of AI.Gen.
 - **Footer**: The footer contains additional links and information for users.
+
+
+## Screenshots
+
+![Home page](./figma_design/public/ss_navbar.png)
+
+<br>
+![Home page](./figma_design/public/ss_mobile.png)
+
 
 
 ## Key Features
